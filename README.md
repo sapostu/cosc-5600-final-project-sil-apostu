@@ -9,7 +9,6 @@ A compact, modular project used for the COSC 5600 final project made by me, Silv
   
 - Usage
 - Notes
-- Contact
 
 Overview
 --------
