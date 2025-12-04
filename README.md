@@ -43,7 +43,7 @@ Requirements for ALL operating system
 
 + Place the `config.json` file in the project root (next to `Main.py`). That has the llm api key
 
-MAC OS 
+MAC OS ( Virtual Environment Requirement; use scripts in code )
 ------------
 
 1. Clone the repository then `cd` into the cloned project:
