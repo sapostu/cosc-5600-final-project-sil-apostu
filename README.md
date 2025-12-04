@@ -42,6 +42,8 @@ Requirements for ALL operating system
 
 ## Running the application
 
++ Place the `config.json` file in the project root (next to `Main.py`). That has the llm api key
+
 MAC OS 
 ------------
 
@@ -51,9 +53,7 @@ MAC OS
 git clone <repo-url>
 ```
 
-2. Place your `config.json` file in the project root (next to `Main.py`).
-
-3. Create and activate the virtual environment using the provided scripts. If the scripts are not executable, make them executable first:
+2. Create and activate the virtual environment using the provided scripts. If the scripts are not executable, make them executable first:
 
 ```bash
 chmod +x Script/create_venv.sh Script/activate.sh Script/deactivate.sh Script/optimized_python_run.sh
@@ -61,13 +61,13 @@ sh Script/create_venv.sh
 source Script/activate.sh
 ```
 
-4. Verify the virtual environment's Python points to the `venv` directory:
+3. Verify the virtual environment's Python points to the `venv` directory:
 
 ```bash
 which python    # should show something like /.../venv/bin/python
 ```
 
-5. Run the project ( Python creates a lot of bloat; this script runs application then cleans up bloat ) :
+4. Run the project ( Python creates a lot of bloat; this script runs application then cleans up bloat ) :
 
 ```bash
 sh ./Script/optimized_python_run
