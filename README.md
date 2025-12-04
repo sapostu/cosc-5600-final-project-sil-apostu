@@ -1,6 +1,6 @@
 # COSC 5600 - Fall 2025 - Graduate - Final Project Code
 
-A compact, modular project used for the COSC 5600 course made by me, Silviu George Apostu.
+A compact, modular project used for the COSC 5600 final project made by me, Silviu George Apostu.
 
 **Table of Contents**
 - Overview
