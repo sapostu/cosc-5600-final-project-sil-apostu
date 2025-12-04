@@ -81,7 +81,9 @@ Windows
 
 2. verify `python` OR `python3`, `pip` OR `pip3` and `scikit-learn` OR `sklearn` all installed
 
-3. run the app via `py .\Main.py`
+* scikit can be download on Windowa Command Prompt with `pip install scikit-learn` if you have sudo access
+
+4. run the app via `py .\Main.py`
 
 NOTE: I recommend running this in VS Code. After running, you can go to `Source Control` tab then delete all the Python bloat
 
