@@ -1,22 +1,12 @@
 # COSC 5600 - Fall 2025 - Graduate - Final Project Code
 
-A compact, modular project used for the COSC 5600 course made by me, Silviu George Apostu. The repository includes dataset references and helper scripts to prepare a virtual environment, run the project and make things very easy for you.
-
-**Quick notes:**
-- **Config:** Place `config.json` in the project root (required for any LLM API queries).
-- **Datasets:** Large datasets are stored with Git LFS. Please install Git LFS if you plan to modify or re-download dataset files: https://github.com/git-lfs/git-lfs
-
-**Repository structure (key files/folders):**
-- `Main.py`: Project entry point
-- `config.json`: API/config file (user-provided)
-- `Script/`: helper scripts (create/activate venv, etc.)
-- `Dataset/`: dataset files and database folders
-- `Model/`, `Service/`, `Util/`: project modules, custom implementations and utilities
+A compact, modular project used for the COSC 5600 course made by me, Silviu George Apostu.
 
 **Table of Contents**
 - Overview
-- Requirements
+- Requirements for all operating systems
 - Installation
+  
 - Usage
 - Notes
 - Contact
@@ -24,15 +14,35 @@ A compact, modular project used for the COSC 5600 course made by me, Silviu Geor
 Overview
 --------
 
-This project is written to be decoupled, modular, and easy to read, test, and scale. It includes helper scripts to create and activate a virtual environment and run the main program.
+This project is written to be decoupled, modular, and easy to read, test, and scale. 
 
-Requirements
+Requirements for ALL operating system
 ------------
 
-- Must be able to run bash scripts
-- `git-lfs` (only required if you need to edit the large dataset files tracked with LFS)
+1. **Git** must be installed. Check on any OS with `git -v`
 
-Installation
+2. **Python 3** must be installed. 
+
+- `py -V` on in Windows Command Prompt
+
+- `python3 -v` or `python -v` on Unix/Linux
+
+
+
+3. **pip** or **pip3** must be installed
+
+- check with `pip -v` or `pip3 -v`
+
+#### CRITICAL PART
+
+----------python package `scikit-learn` or `sklearn` MUST be downloaded it. 
+
+
+5. `git-lfs` (only required if you need to edit the large dataset files tracked with LFS)
+
+## Running the application
+
+MAC OS 
 ------------
 
 1. Clone the repository then `cd` into the cloned project:
@@ -62,6 +72,31 @@ which python    # should show something like /.../venv/bin/python
 ```bash
 sh ./Script/optimized_python_run
 ```
+
+
+Windows
+------------
+
+1. ensure repo is cloned
+
+2. verify `python` OR `python3`, `pip` OR `pip3` and `scikit-learn` OR `sklearn` all installed
+
+3. run the app via `py .\Main.py`
+
+NOTE: I recommend running this in VS Code. After running, you can go to `Source Control` tab then delete all the Python bloat
+
+Linux ( Ubuntu Example )
+------------
+
+1. ensure repo is cloned
+
+2. verify `python` OR `python3`, `pip` OR `pip3` and `scikit-learn` OR `sklearn` all installed
+
+* scikit can be download on ubuntu with `sudo apt install python3-sklearn` if you have sudo access
+
+3. run the app via `py .\Main.py`
+
+NOTE: I recommend running this in VS Code. After running, you can go to `Source Control` tab then delete all the Python bloat
 
 Usage
 -----
