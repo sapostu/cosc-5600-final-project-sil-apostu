@@ -37,7 +37,7 @@ Requirements for ALL operating system
 ----------python package `scikit-learn` or `sklearn` MUST be downloaded it. 
 
 
-5. `git-lfs` (only required if you need to edit the large dataset files tracked with LFS)
+4. `git-lfs` (only required if you need to edit the large dataset files tracked with LFS)
 
 ## Running the application
 
@@ -106,7 +106,7 @@ Usage
   - `NUM_ITEMS_TO_TEST` is a number. This is how many items from the dataset chosen will be randomly chosen
   - `SEED` is a string. This deterministically randomly chooses test items from the dataset
 
-2. Ensure you run the scripts listed earlier. No command line inputs or anything. Just watch my app work.
+2. Ensure you run the scripts listed earlier if running on MAC OS
 3. If you need to modify or replace dataset files, ensure Git LFS is installed before pulling changes.
 4. If a script fails due to execution permissions, set the executable bit (e.g., `chmod +x Script/<script>.sh`).
 
